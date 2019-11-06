@@ -13,7 +13,7 @@ counter = 0
   director_hash = nds[counter]
   director_name = nds[counter][:name]
   total[director_name] = 0
-
+  counter +=1
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
