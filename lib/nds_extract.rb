@@ -7,7 +7,12 @@ require 'directors_database'
 
 def directors_totals(nds)
  
-new_hash = {}
+counter = 0 
+  total = {}
+  while counter < nds.length do 
+  director_hash = nds[counter]
+  director_name = nds[counter][:name]
+  total[director_name] = 0
 
 end
 
